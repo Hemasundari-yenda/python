@@ -1,2 +1,2 @@
 # python
-prime number program
+
