@@ -1,6 +1,6 @@
 num=int(input('enter the value'))
 if num <=1:
-    print('this not a prime number')
+    print('number is not a prime number')
 else:
     for i in range(2,int(num**0.5)+1):
         if num%i==0:
