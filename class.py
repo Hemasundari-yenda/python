@@ -11,22 +11,7 @@ class pc:
         print('i am in  main method')
 pc1=pc('hema','sklm','google')
 pc1.main()
-        
-
-
-
-class car:
-    wheels=4
-    def __init__(self,brand,milage):
-        self.brand=brand
-        self.milage=milage
-c1=car('mw',8)
-c2=car('toyota',10)
-car.wheels=5
-print(c1.brand,c1.milage,"this is the instance varible ouput" ,c1.wheels)
-print(c2.brand,c2.milage,c2.wheels)
-
-
+    
 #this is a instance method
 class student:
     school='telsuko'
@@ -66,8 +51,7 @@ class student1:
         print((self.m1+self.m2+self.m3)/3)
     '''  @classmethod #it is a decarator  # decarators are need for writing a program in class method
     def config(cls):#in the parathesis  we need pass cls becase it is a class method it should be same not anything else
-        print(cls.school)
-        print('i am from class method')'''
+       '''
     #for updating the school name
     @classmethod
     def config(cls,new_name):
